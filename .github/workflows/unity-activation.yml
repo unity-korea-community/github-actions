@@ -5,9 +5,6 @@ name: unity activation
 
 on: [push]
 
-env:
-  unityVersion: 2019.4.25f1
-
 jobs:
   activation:
     name: Request manual activation file 🔑
