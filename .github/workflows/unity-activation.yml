@@ -9,6 +9,11 @@ jobs:
   activation:
     name: Request manual activation file 🔑
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        unityVersion:
+          - 2019.4.25f1
     steps:
       # Request manual activation file
       - name: Request manual activation file
