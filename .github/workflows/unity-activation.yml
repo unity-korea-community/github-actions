@@ -3,7 +3,9 @@
 
 name: unity activation
 
-on: [push]
+on:
+  push:
+    branches: [ MAYBE_MASTER ]
 
 jobs:
   activation:
